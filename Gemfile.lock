@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/jackdempsey/sequel_polymorphic.git
+  revision: 9c400a10afcf6468694e5439822dd8cd9934b72b
+  branch: master
+  specs:
+    sequel_polymorphic (0.2.1)
+      sequel (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -81,8 +89,6 @@ GEM
     rspec_sequel_matchers (0.4.0)
       sequel (>= 3.8.0)
     sequel (4.24.0)
-    sequel_polymorphic (0.2.0)
-      sequel (~> 4.0)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -123,7 +129,7 @@ DEPENDENCIES
   rspec (~> 3.2)
   rspec_sequel_matchers
   sequel
-  sequel_polymorphic
+  sequel_polymorphic!
   sinatra
   sinatra-contrib
   thin

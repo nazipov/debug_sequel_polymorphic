@@ -8,7 +8,7 @@ gem "grape-swagger"
 gem "oj"
 gem "mysql2"
 gem "sequel"
-gem "sequel_polymorphic"
+gem "sequel_polymorphic", git: 'https://github.com/jackdempsey/sequel_polymorphic.git', branch: 'master'
 
 group :development do
   gem "mina"
